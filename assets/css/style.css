@@ -104,10 +104,12 @@
         padding: 0;
     }
     #segunda div h2{
-        font-size: 28px;
+        font-size: 25px;
+        text-align: justify;
     }
     #segunda div p{
-        font-size: 19px;
+        font-size: 21px;
+        text-align: justify;
     }
     #terceira{
         display: flex;
@@ -130,6 +132,7 @@
         text-align: start;
     }
     #terceira div div h1{
+        margin-top: 30px;
         font-size: 50px;
     }
     #terceira div div li{
