@@ -9,6 +9,9 @@
     body header nav {
         background: linear-gradient(90deg, rgba(36, 46, 57, 1) 0%, rgb(52, 125, 81) 25%, rgb(21, 114, 71) 100%);
     }
+    .row{
+        --bs-gutter-x: 0rem;
+    }
     #logo {
         font-size: 30px;
         color: #fff;
@@ -180,7 +183,9 @@
     #links div img {
         width: 105%;
     }
-
+    .row{
+        --bs-gutter-x: 0rem;
+    }
     section #links {
         display: flex;
         justify-content: center;
@@ -202,8 +207,7 @@
         align-items: center;
         justify-content: center;
         gap: 5px;
-        margin: 40px;
-        margin-left: 90px;
+        margin-top: 35px;
         padding-left: 0px;
     }
 
