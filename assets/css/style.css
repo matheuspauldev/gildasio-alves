@@ -103,6 +103,12 @@
         margin: 20px;
         padding: 0;
     }
+    #segunda div h2{
+        font-size: 28px;
+    }
+    #segunda div p{
+        font-size: 19px;
+    }
     #terceira{
         display: flex;
         flex-direction: column;
@@ -119,6 +125,18 @@
     }
     #terceira div ul li {
         list-style-type: none;
+    }
+    #terceira div div ul{
+        text-align: start;
+    }
+    #terceira div div h1{
+        font-size: 50px;
+    }
+    #terceira div div li{
+        font-size: 20px;
+    }
+    #terceira div div h5{
+        font-size: 20px;
     }
     #terceira div div button {
         width: 350px;
@@ -190,7 +208,6 @@
         display: flex;
         justify-content: center;
     }
-
     a {
         text-decoration: none;
         color: white;
@@ -200,7 +217,6 @@
         list-style-type: none;
         font-size: 55px;
     }
-
     #links ul {
         display: flex;
         flex-direction: column;
@@ -210,7 +226,6 @@
         margin-top: 35px;
         padding-left: 0px;
     }
-
     section div ul li button {
         color: #fff;
         width: 350px;
@@ -221,53 +236,47 @@
         transition: transform 0.6s ease-in-out;
         transition: box-shadow 0.2s ease-in-out;
     }
-
     .btn-links:hover {
         background: rgb(52, 125, 81);
         border: 10px solid black;
         transform: scale(1.1);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     }
-
     .btn-links {
         background: linear-gradient(90deg, #012816 0%, #157247 30%, #157247 80%, #012816 100%);
         border-radius: 30px;
         border: 0px;
     }
-
     i {
         color: white;
     }
-
     #segunda {
         height: 100vh;
         width: 100%;
         background: linear-gradient(90deg, #c6d76d 0%, #157247 30%, #157247 80%, #012816 100%);
     }
-
     #segunda div {
         background-color: #ffffff;
         margin: 0;
         padding: 0;
     }
-
     #terceira {
         margin: 0px;
         height: 100vh;
         width: 100%;
         background: linear-gradient(90deg, #c6d76d 0%, #157247 30%, #c6d76d 80%, #012816 100%);
     }
-
     #terceira div {
         background-color: #ffffff;
         margin: 0;
         padding: 0;
     }
-
+    #terceira div div ul{
+        text-align: justify;
+    }
     #terceira div ul li {
         list-style-type: none;
     }
-
     #terceira div button {
         width: 250px;
         height: 60px;
