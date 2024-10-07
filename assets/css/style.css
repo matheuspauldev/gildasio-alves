@@ -93,7 +93,7 @@
         display: none;
     }
     #segunda{
-        background-color: #7d9c63;
+        background: linear-gradient(90deg, #68732f 0%, #b8c966 10%, #89993b 80%, #68732f 100%);
     }
     #segunda div {
         display: flex;
