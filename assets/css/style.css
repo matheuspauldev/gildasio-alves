@@ -1,118 +1,271 @@
-body{
-    background-color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
+@media (max-width: 768px) {
+    body {
+        background-color: #ffffff;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px;
+        margin-bottom: 100px;
+        padding: 0px;
+    }
+    body header nav {
+        background: linear-gradient(90deg, rgba(36, 46, 57, 1) 0%, rgb(52, 125, 81) 25%, rgb(21, 114, 71) 100%);
+    }
+    #logo {
+        font-size: 30px;
+        color: #fff;
+    }
+    #logo img {
+        border-radius: 15px;
+    }
+    #offcanvasNavbar {
+        background: linear-gradient(90deg, rgba(36, 46, 57, 1) 0%, rgb(52, 125, 81) 25%, rgb(21, 114, 71) 75%, rgba(36, 46, 57, 1) 100%);
+    }
+
+    #offcanvasNavbar div h5 {
+        color: #fff;
+    }
+
+    #offcanvasNavbar div ul {
+        margin-top: 10px;
+        gap: 8px;
+    }
+
+    #offcanvasNavbar div ul li button {
+        width: 100%;
+    }
+
+    #offcanvasNavbar div ul li button a {
+        color: #fff;
+    }
+    #primeira div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #links img {
+        width: 160%;
+    }
+    section #links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    #links ul li {
+        list-style-type: none;
+    }
+    #links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    section div div ul li button {
+        color: #fff;
+        width: 300px;
+        height: 45px;
+        border: 2px solid white;
+        background-color: black;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+        transition: transform 0.9s ease-in-out;
+        transition: box-shadow 0.2s ease-in-out;
+    }
+    .btn-links:hover {
+        background: rgb(52, 125, 81);
+        border: 10px solid black;
+        transform: scale(1.1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    }
+
+    .btn-links {
+        background: linear-gradient(90deg, #012816 0%, #157247 30%, #157247 80%, #012816 100%);
+        border-radius: 30px;
+        border: 0px;
+    }
+    #psicoimg{
+        display: none;
+    }
+    #segunda{
+        background-color: #7d9c63;
+    }
+    #segunda div {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        width: 87%;
+        margin: 20px;
+        padding: 0;
+    }
+    #terceira{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #terceira div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    #terceira div ul li {
+        list-style-type: none;
+    }
+    #terceira div div button {
+        width: 350px;
+        height: 60px;
+    }
+    #quarta h1{
+        margin-top: 40px;
+    }
 }
-p{
-    font-size: 20px;
-}
-body header nav{
-    background:linear-gradient(90deg, rgba(36,46,57,1) 0%, rgb(52, 125, 81) 25%, rgb(21, 114, 71) 100%);
-}
-#logo{
-    font-size: 30px;
-    color: #fff;
-}
-#logo img{
-    border-radius: 15px;
-}
-#offcanvasNavbar{
-    background:linear-gradient(90deg, rgba(36,46,57,1) 0%, rgb(52, 125, 81) 25%, rgb(21, 114, 71) 75%, rgba(36,46,57,1) 100%) ;
-}
-#offcanvasNavbar div h5{
-    color: #fff;
-}
-#offcanvasNavbar div ul{
-    margin-top: 10px;
-    gap: 8px;
-}
-#offcanvasNavbar div ul li button{
-    width: 100%;
-}
-#offcanvasNavbar div ul li button a{
-    color: #fff;
-}
-/* #primeira{
+@media (min-width: 769px) {
+    body {
+        background-color: #ffffff;
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    body header nav {
+        background: linear-gradient(90deg, rgba(36, 46, 57, 1) 0%, rgb(52, 125, 81) 25%, rgb(21, 114, 71) 100%);
+    }
+
+    #logo {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #logo img {
+        border-radius: 15px;
+    }
+
+    #offcanvasNavbar {
+        background: linear-gradient(90deg, rgba(36, 46, 57, 1) 0%, rgb(52, 125, 81) 25%, rgb(21, 114, 71) 75%, rgba(36, 46, 57, 1) 100%);
+    }
+
+    #offcanvasNavbar div h5 {
+        color: #fff;
+    }
+
+    #offcanvasNavbar div ul {
+        margin-top: 10px;
+        gap: 8px;
+    }
+
+    #offcanvasNavbar div ul li button {
+        width: 100%;
+    }
+
+    #offcanvasNavbar div ul li button a {
+        color: #fff;
+    }
+
+    /* #primeira{
     height: 100vh;
     width: 100%;
     background-image: url("/assets/img/perfil/close-up-small-vase-with-dried-plants.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 } */
-#links img{
-    width: 55%;
-}  
-section #links{
-    display: flex;
-    justify-content: center;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-#links ul li{
-    list-style-type: none;
-    font-size: 55px;
-}
-#links ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    margin: 40px;
-    margin-left: 90px;
-    padding-left: 0px;
-}
-section div ul li button {
-    color: #fff;
-    width:350px;
-    height:75px;
-    border: 2px solid white;
-    background-color: black;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.35);
-    transition: transform 0.6s ease-in-out;  
-    transition: box-shadow 0.2s ease-in-out;
-}
-.btn-links:hover{
-    background:  rgb(52, 125, 81);
-    border: 10px solid black;
-            transform: scale(1.1); 
-            box-shadow: 0 5px 15px rgba(0,0,0,0.6);
-}
-.btn-links{
-    background: linear-gradient(90deg, #012816 0%,  #157247 30%, #157247 80%, #012816 100%);
-    border-radius: 30px;
-    border: 0px;
-}
-i{
-    color: white;
-}
-#segunda{
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(90deg, #c6d76d 0%,  #157247 30%, #157247 80%, #012816 100%);
-}
-#segunda div{
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-#terceira{
-    margin: 0px;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(90deg, #c6d76d 0%,  #157247 30%, #c6d76d 80%, #012816 100%);
-}
-#terceira div{
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-#terceira div ul li{
-    list-style-type: none;
-}
-#terceira div button{
-    width:250px;
-    height:60px;
+    #links div img {
+        width: 105%;
+    }
+
+    section #links {
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #links ul li {
+        list-style-type: none;
+        font-size: 55px;
+    }
+
+    #links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin: 40px;
+        margin-left: 90px;
+        padding-left: 0px;
+    }
+
+    section div ul li button {
+        color: #fff;
+        width: 350px;
+        height: 75px;
+        border: 2px solid white;
+        background-color: black;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+        transition: transform 0.6s ease-in-out;
+        transition: box-shadow 0.2s ease-in-out;
+    }
+
+    .btn-links:hover {
+        background: rgb(52, 125, 81);
+        border: 10px solid black;
+        transform: scale(1.1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    }
+
+    .btn-links {
+        background: linear-gradient(90deg, #012816 0%, #157247 30%, #157247 80%, #012816 100%);
+        border-radius: 30px;
+        border: 0px;
+    }
+
+    i {
+        color: white;
+    }
+
+    #segunda {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(90deg, #c6d76d 0%, #157247 30%, #157247 80%, #012816 100%);
+    }
+
+    #segunda div {
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+
+    #terceira {
+        margin: 0px;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(90deg, #c6d76d 0%, #157247 30%, #c6d76d 80%, #012816 100%);
+    }
+
+    #terceira div {
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+
+    #terceira div ul li {
+        list-style-type: none;
+    }
+
+    #terceira div button {
+        width: 250px;
+        height: 60px;
+    }
 }
